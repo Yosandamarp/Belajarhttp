@@ -1,0 +1,11 @@
+http merupakan protokol untuk melakukan hypermedia document seperti HTML,JavaScript,CSS,image,audio,video,dll
+client mengirimkan request untuk meminta atau informasi ke server dan server 
+membalasnya dengan HTTP Response dari HTTP Request yang diterima
+contohnya seperti web facebook mengirim http Request ke server facebook dan
+server facebook mengirim balik HTTP Request ke client
+HTTP didesain menggunakan bahasa yang mudah untuk di mengerti oleh manusia
+seperti : GET, POST, PUT, DELETE, HEAD, Dan OPTION.
+HTTP menggunakan protokol yang stateless atau bisa dijelaskan Request
+baru dengan Request sebelumnya 
+HTTP memiliki fitur yang bernama Cookie, HTTP cookie memaksa client menyimpan
+informasi yang diberikan oleh server sperti login web facebook atau web lain.
