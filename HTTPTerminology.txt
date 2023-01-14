@@ -1,0 +1,13 @@
+Web Browser merupakan aplikasi yang digunakan untuk mengakses Web menggunakan protocol HTTP
+Seperti contohnya yang kita ketahui yaitu Google Chrome,Firefox,Opera,Safari,
+dll.
+TCP adalah singkatan dari Transmission Control Protocol,adalah salah satu protocol 
+dalam jaringan komputer yang bisa digunakan oleh web,email,FTP atau lainnya
+Jika menggunakan jaringan internet,kemungkinan besar kita akan menggunakan protocol TCP
+untuk melakukan koneksi jaringannya.
+IP adalah singkatan dari Internet Protocol IP digunakan sebagai identitas komputer
+dijaringan,setiap komputer baik itu client dan server memiliki IP masing masing
+Untuk mengecek IP jaringan kita di internet,kita bisa mengakses web   
+https://whatismyipaddres.com/
+URL merupakan singkatan dari Uniform Resource Locator,URL merupakan alamat 
+dari sebuah respurce di Web contohnya youtube.com
