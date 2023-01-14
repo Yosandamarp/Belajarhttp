@@ -1,0 +1,17 @@
+SPesifikasi HTTP selalu di perbarui saat ini banyak web berjalan di HTTP/1.1 atau HTTP2
+HTTP2 hadir sekitar tahun 2015 dan saat ini sudah banyak diadopsi oleh
+semua Web di Dunia.
+Saat ini HTTP/1.1 merupakan fallback protocol,dimana Web Browser secara default
+akan melakukan request mrnggunakan HTTTP/2,jika web server tidak mendukung,maka
+web browser akan melakukan fallback ke protocol HTTP/1.1
+yang membedakan HTTP/1.1 dengan HTTP/2 adalah pada HTTP/2, HTTP Request yang di kirim
+dalam bentuk teks,secara otomatis menjadi binary,jadi lebih cepat di bandingkan
+HTTP/1.1
+Tidak ada perbedaan,semua ini biasa sudah di urus secara otomatis oleh Web Server
+yang kita gunakan.
+Secara default HTTP tidaklah aman,HTTPS merupakan HTTP dengan enkripsi 
+Perbedaan HTTPS dengan HTTP ialah pada HTTPS menggunakan SSL(Secure Sockets Layer)
+untuk melakukan enkripsi HTTP Request dan HTTP Response
+Hasil dari HTTPS jauh lebih aman dibandingkan dengan HTTP biasa.
+Web yang menggunakan HTTPS akan menggunakan https:// pada urlnya dan yang hanya 
+menggunakan HTTP tanpa enkripsi, akan menggunakan http://
