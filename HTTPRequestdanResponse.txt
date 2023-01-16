@@ -1,0 +1,29 @@
+HTTP Request dan HTTP Response sebenarnya adalah HTTP Message
+HTTP Message memiliki standarisasi format
+Dengan demikian,jika kita ingin membuat Client dan Server sendiri,sebenarnya bisa kita lakukan
+asal kita mengikuti standarisasi format HTTP Message
+HTTP Message untuk Request
+(POST /login HTTP/1.1) - Start line
+
+(Host: example.com
+Connection: keep-alive
+accept: application/json
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)
+Content-Type: application/json
+Content-Lenght: 51) - Header
+
+(         ) - Space
+
+{"password": "rahasia","username": "khannedy} - Body
+
+HTTP Message untuk Response
+(HTTP/1.1 200) - Start line
+
+(Set-Cookie: X-COMMERCE-SESSION=eyJ0XAiOiJKV1QiLCJhbGciOiJIUzI1N
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Sun, 04 Jul 2021 12:17:55 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive) - Header
+
+{"status":"OK","code":200,"data":{"username":"khannedy","name"} - Body
