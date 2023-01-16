@@ -1,0 +1,12 @@
+Dalam HTTP terdapat dua pihak yang terlibat, yaitu Client dan Server
+Client akan mengirimkan Request dan Server akan menerima Request dan membalas dengan Response
+Server merupakan sebuah komputer, dimana semua informasi disimpan pada komputer tersebut
+Komputer server biasanya menjalankan aplikasi Web Server agar bisa menerima protocol HTTP
+Client merupakan komputer yang bertugas mengiri HTTP Request ke komputer Server
+client biasanya akan menggunakan aplikasi Web Browser
+Client dan Server harus terkoneksi dalam jaringan yang sama, agar dapat berkomunikasi
+HTTP di kirim oleh Client ke Server yang biasa berisikan informasi seperti lokasi
+resource, data yang dikirim jika ada,dan lain lain.
+selanjutnya Server akan memproses request yang di minta oleh Client tersebut
+Setelah Server memproses HTTP Request yang dikirim oleh Client 
+HTTP Response biasanya berisikan data yang diminta oleh Client dalam HTTP RequestS
