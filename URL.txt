@@ -1,0 +1,30 @@
+URL adalah singkatan dari Uniform Resource Locator
+URL merupakan alamat dari sebuah reource yang ada di Web
+URL wajib kita gunakan untuk menuju informasi yang akan kita tuju dalam web
+Tanpa URL,Client atau Server tidak akan mengerti informasi apa yang kita ingin kita cari
+URL terdiri dari beberapa bagian ada yang wajib ada dan ada yang tidak wajib ada
+
+(Schema) terdapat di bagian depan URL website, schema protocol tersebut adalah http dan https
+contohnya: http atau https://www.example.com:80/path/to/myfile.html?key1=value1
+
+(Authority) Selanjutnya,dipisahkan dengan tanda :// di ikuti dengan authority, yang terdiri
+dari nama domain dan nomor port yang dipisah menggunakan titik dua
+Nama domain nanti akan ditanyakan ke DNS untuk mendapatkan alamat IP nya
+Nomor port tidak wajib,tanpa nomor part,secara default bernilai 80 untuk http, dan 443 untuk https
+contohnya:www.example.com:80
+
+(Path) Selanjutnya setelah Authority,bagian selanjutnya adalah tidak wajib,yaitu path
+Path biasanya berisikan informasi menuju ke resource yang kita tuju
+Path terlihat seperti kumpulan folder dan diakhiri dengan file yang ingin kita akses
+contohnya:/path/to/myfile.html
+
+(Parameters) Selanjutnya,dalam URL juuga bisa terdapat informasi parameters,namun ini tidak wajib
+Parameter merupakan informasi tambahan yang berisi key=value,jika ingin menambahkan lebih dari 
+satu parameter,kita bisa tambahkan parameter dengan menggunakan karakter &
+contohnya:?key1=value1&key2=value2
+
+(Anchor) Anchor merupakan bagian yang tidak wajib di URL
+Anchor merupakan representasi bookmark dalam sebuah halaman website
+Jika dalam website terdapat terdapat banyak sekali bagian informasi,kita bisa gunakan 
+anchor sebagai bookmark ke tiap bagian informasi tersebut agar lebih mudah diakses
+contohnya:#SomewhereInTheDocument
