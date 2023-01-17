@@ -1,0 +1,6 @@
+ada beberapa Teknologi lainnya yaitu
+-Server-Sent Event
+-WebSocket
+-Cross-Origin Reource Sharing
+-RESTful API 
+-OAuth
