@@ -1,0 +1,25 @@
+HTTP didesain stateless,artinya tiap request yang dilakukan,dia tidak
+tahu request sebelumnya atau selanjutnya yang akan dilakukan
+Server bisa tahu kalo Client sudah login sebelum mengakses halaman tertentu
+biasanya menggunakan fitur HTTP Cookie
+HTTP Cookie,merupakan informasi yang diberikan oleh server,dan client 
+otomatis akan menyimpan data tersebut,contohnya Web Browser
+Dari cookie tersebut,Server bisa mengetahui apakah request tersebut 
+merupakan request client yang sudah login atau belum.
+
+(Cookie di HTTP Request)
+Informasi cookie yang diberikan dari Server,ditempatkan pada Header
+dengan value Set-Cookie
+Contoh Cookie di HTTP Response
+HTTP/1.1 200
+Set-Cookie: user=eko
+Set-Cookie: session=3412414124124124
+
+(Cookie di HTTP Request)
+Setelah cookie dari HTTP Response diterima oleh Web Browser,maka akan
+disimpan di Web Browser
+Berbeda dengan HTTP Response,untuk HTTP Request,Cookie harus digabung 
+di satu header jika lebih dari satu Cookie
+
+Cookie memiliki atribut yang bisa ditambahkan ketika membuat cookie 
+di HTTP Response
